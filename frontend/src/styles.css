@@ -1,0 +1,301 @@
+/* Modern Styles for Sites CRUD */
+
+/* Body and General */
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  padding: 20px 0;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+/* Header */
+.header-section {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 3px solid #007bff;
+}
+
+#main_title {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.header-section h1 {
+  color: #007bff;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Action Section */
+.action-section {
+  margin-bottom: 1.5rem;
+}
+
+.search-container .input-group-text {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  border-color: #dee2e6;
+}
+
+.search-container .form-control {
+  border-left: none;
+}
+
+.search-container .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.search-container .input-group-text {
+  border-right: none;
+}
+
+.btn-modern {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.btn-modern:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Upload Section */
+.upload-section {
+  background: #f8f9fa;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 2px dashed #dee2e6;
+  transition: all 0.3s ease;
+}
+
+.upload-section:hover {
+  border-color: #007bff;
+  background: #e7f3ff;
+}
+
+/* Alerts */
+.modern-alert {
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.modern-alert ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.modern-alert li {
+  padding: 0.2rem 0;
+}
+
+/* Table */
+.table-wrapper {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+}
+
+.modern-table {
+  margin-bottom: 0;
+}
+
+.modern-table thead th {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  font-weight: 600;
+  padding: 1rem;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  letter-spacing: 0.5px;
+}
+
+.modern-table tbody tr {
+  transition: all 0.3s ease;
+}
+
+.modern-table tbody tr:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.01);
+}
+
+.modern-table tbody td {
+  padding: 0.8rem;
+  vertical-align: middle;
+}
+
+/* Modal */
+.modern-modal {
+  border-radius: 15px;
+  border: none;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.modern-modal .modal-header {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 1.5rem;
+}
+
+.modern-modal .modal-body {
+  padding: 2rem;
+}
+
+/* Form Inputs */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.modern-input {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.modern-input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Pagination */
+.pagination-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.pagination .page-link {
+  border-radius: 8px;
+  margin: 0 0.2rem;
+  border: 1px solid #dee2e6;
+  color: #007bff;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-link:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+/* Button Colors */
+.btn-primary.btn-modern {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  border: none;
+}
+
+.btn-success.btn-modern {
+  background: linear-gradient(135deg, #28a745, #1e7e34);
+  border: none;
+}
+
+.btn-danger.btn-modern {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  border: none;
+}
+
+.btn-secondary.btn-modern {
+  background: linear-gradient(135deg, #6c757d, #545b62);
+  border: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .upload-section .d-flex {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .upload-section input[type="file"] {
+    max-width: 100% !important;
+  }
+}
+
+/* Small improvements */
+.bi {
+  font-size: 1rem;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) > td {
+  background-color: rgba(0, 123, 255, 0.03);
+}
+
+.btn-sm.btn-modern {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.875rem;
+}
+
+/* Hide scroll arrows/buttons - More aggressive approach */
+*[class*="scroll"],
+*[id*="scroll"],
+*[class*="arrow"],
+*[id*="arrow"],
+*[class*="float"],
+*[id*="float"],
+*[class*="back"],
+*[id*="back"],
+*[class*="top"],
+*[id*="top"]:not(.table):not(.container):not(.modal):not(.btn) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Target specific scroll elements */
+div:not(.container):not(.table-wrapper):not(.modal) > *:last-child:not(script):not(style) {
+  position: relative;
+}
+
+/* Hide floating elements at bottom of page */
+body > *:last-child:not(.container):not(script):not(.modal) {
+  display: none !important;
+}
+
+/* Hide any position fixed elements except modals */
+*:not(.modal):not(.modal-backdrop)[style*="position: fixed"],
+*:not(.modal):not(.modal-backdrop)[style*="position:fixed"] {
+  display: none !important;
+}
